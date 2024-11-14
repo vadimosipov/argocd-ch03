@@ -5,9 +5,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/vadimosipov/argocd-ch03
-    path: notifications
-    targetRevision: main
+    repoURL: github.com/argoproj/argo-helm
+    path: charts/argocd-notifications
+    targetRevision: argocd-notifications-1.8.1
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
