@@ -3,13 +3,13 @@ kind: Kustomization
 namespace: argocd
 resources:
 - resources/namespace.yaml
-- argocd-applicationset-controller-metrics.yaml
-- argocd-dex-server.yaml
-- argocd-metrics.yaml
-- argocd-notifications-controller.yaml
-- argocd-redis-haproxy-metrics.yaml
-- argocd-repo-server-metrics.yaml
-- argocd-server-metrics.yaml
+- resources/argocd-applicationset-controller-metrics.yaml
+- resources/argocd-dex-server.yaml
+- resources/argocd-metrics.yaml
+- resources/argocd-notifications-controller.yaml
+- resources/argocd-redis-haproxy-metrics.yaml
+- resources/argocd-repo-server-metrics.yaml
+- resources/argocd-server-metrics.yaml
 - github.com/argoproj/argo-cd/manifests/ha/cluster-install?ref=v2.1.1
 patches:
 - path: patches/argocd-cm.yaml
