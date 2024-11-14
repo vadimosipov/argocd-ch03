@@ -6,3 +6,4 @@ resources:
 - github.com/argoproj/argo-cd/manifests/ha/cluster-install?ref=v2.1.1
 patches:
 - path: patches/argocd-cm.yaml
+- path: patches/argocd-server-deployment.yaml
