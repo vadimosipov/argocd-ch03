@@ -1,0 +1,11 @@
+{
+  "appName": "ch04",
+  "userGivenName": "ch04",
+  "destNamespace": "argocd4",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/ch04/overlays/default",
+  "srcRepoURL": "https://github.com/vadimosipov/argocd-ch03.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
